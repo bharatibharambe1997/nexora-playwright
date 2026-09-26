@@ -1,0 +1,17 @@
+{
+  "name": "nexora-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise Playwright JavaScript automation capstone",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4"
+  }
+}
